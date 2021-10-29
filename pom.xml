@@ -134,6 +134,12 @@
             <version>5.3.12</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>jakarta.annotation</groupId>
+            <artifactId>jakarta.annotation-api</artifactId>
+            <version>8.5.11</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <profiles>
