@@ -8,7 +8,7 @@ import org.slf4j.LoggerFactory;
 
 import java.util.concurrent.TimeUnit;
 
-public class TimingRules {
+public  class TimingRules {
     private static final Logger log = LoggerFactory.getLogger("result");
 
     private static final StringBuilder results = new StringBuilder();
