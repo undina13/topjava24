@@ -1,3 +1,10 @@
+
+curl -s http://localhost:8080/topjava/rest/admin/users
+curl -s http://localhost:8080/topjava/rest/admin/users/100000
+curl -s http://localhost:8080/topjava/rest/profile/meals/100005
+curl -s -X DELETE http://localhost:8080/topjava/rest/profile/meals/100003
+
+
 Java Enterprise Online Project
 ===============================
 
