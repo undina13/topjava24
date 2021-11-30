@@ -21,7 +21,6 @@ public class MatcherFactory {
         return new Matcher<>(clazz, fieldsToIgnore);
     }
 
-
     public static <T> Matcher<T> usingEqualsComparator(Class<T> clazz) {
         return new Matcher<>(clazz);
     }
