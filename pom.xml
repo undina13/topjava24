@@ -330,14 +330,7 @@
             <version>1.8.2</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-            <version>5.3.13</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
-
     <profiles>
         <profile>
             <id>hsqldb</id>
@@ -349,6 +342,7 @@
                 </dependency>
             </dependencies>
         </profile>
+
 
         <profile>
             <id>postgres</id>
