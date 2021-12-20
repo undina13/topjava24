@@ -40,6 +40,7 @@ public class ExceptionInfoHandler {
         return logAndGetErrorInfo(req, e, true, DATA_ERROR);
     }
 
+
     @ResponseStatus(HttpStatus.UNPROCESSABLE_ENTITY)  // 422
     @ExceptionHandler({IllegalRequestDataException.class, MethodArgumentTypeMismatchException.class, HttpMessageNotReadableException.class})
     public ErrorInfo illegalRequestDataError(HttpServletRequest req, Exception e) {
